@@ -3,6 +3,10 @@ body{
   color:#ddd
 }
 
+.res-voteEnhancements-highlightScores span.score {
+    color: white;
+}
+
 .comment .usertext .md p>a:visited,.md a,.res.res-nightmode .tagline a,a,h2 a:visited{
   color:#3498db;
   -webkit-transition:color .15s ease-in-out;
