@@ -28,25 +28,6 @@ a:hover{
   color:#ddd
 }
 
-.md blockquote{
-  padding:5px;
-  margin-left:0;
-  background:#292929;
-  border:1px solid #3c3c3c;
-  border-left-width:3px;
-  color:#ccc
-}
-
-.md blockquote blockquote{
-  background:#262626;
-  border-color:#3c3c3c
-}
-
-.md blockquote blockquote blockquote{
-  background:#292929;
-  border-color:#3c3c3c
-}
-
 .md code,.md pre{
   background:#2c2c2c;
   border-color:#3c3c3c;
@@ -5450,4 +5431,23 @@ body.with-listing-chooser .listing-chooser .grippy:hover:after{
 
 .markhelp tbody tr:nth-of-type(even)>td{
   background:#252525
+}
+
+.md blockquote {
+    color: #eee;
+    border-left: 3px solid #161616;
+}
+
+.titlebox .fancy-toggle-button, .titlebox .fancy-toggle-button .option.remove {
+    color: red !important;
+}
+
+.titlebox .fancy-toggle-button .option.add, .titlebox .fancy-toggle-button {
+    color: green !important;
+}
+
+.interstitial-subreddit-description {
+    background-color: #333;
+    margin-bottom: 20px;
+    padding: 10px 20px;
 }
